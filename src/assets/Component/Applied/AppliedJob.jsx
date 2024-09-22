@@ -1,6 +1,7 @@
 
 
 const AppliedJob = ({dJob}) => {
+
     
     const { company_name, job_title, job_type, location, logo, remote_or_onsite, salary, experiences
         , educational_requirements, contact_information, job_description, job_responsibility } = dJob;
@@ -22,7 +23,7 @@ const AppliedJob = ({dJob}) => {
                             <p>{company_name}</p>
                             <div className="gap-8 flex ">
                                 <button className="btn ">{remote_or_onsite}</button>
-                                <button className="btn ">{remote_or_onsite}</button>
+                                <button className="btn ">{job_type}</button>
                             </div>
                             <div className="flex gap-10">
                                 <p>{location}</p>
