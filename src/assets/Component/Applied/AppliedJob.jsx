@@ -12,7 +12,7 @@ const AppliedJob = ({dJob}) => {
             <div className=" grid grid-cols-4 bg-base-100  shadow-xl p-8 ">
                 <figure className="px-10 pt-10 col-span-1 ">
                     <img
-                        src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                        src={logo}
                         alt="Shoes"
                         className="rounded-xl" />
                 </figure>
